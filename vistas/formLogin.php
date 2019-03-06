@@ -167,8 +167,7 @@
         </div>
         <button type="submit" class="buttonui"> <span> Ingresar </span>
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
-        </button>
-
+        </button>                
     </form>
 
     <div class="powered">
