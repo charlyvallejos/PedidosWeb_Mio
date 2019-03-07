@@ -4,16 +4,16 @@
     if ($usuario->verificoAutentificacion())
     {
 ?>
-<html ng-app="appLogin">
+<html ng-app="appSapo">
     <head>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
-        <h1>HOLA COMO VA TODO Viento?</h1>
+        <h1>HOLA COMO VA TODO Viento?</h1>        
         <div ng-controller="loginController">
             <button ng-click="logout()">Salir</button>
-        </div>  
+        </div>         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="js/jquery-ui.js"></script>
