@@ -10,7 +10,7 @@
         <title></title>
     </head>
     <body>
-        <h1>HOLA COMO VA TODO Viento?</h1>        
+        <?php require 'vistas/menu.php';?>        
         <div ng-controller="loginController">
             <button ng-click="logout()">Salir</button>
         </div>         

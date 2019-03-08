@@ -5,7 +5,7 @@
         $vista = 'vistaPedidos';
     
     
-    
+    echo 'hola';
 
 ?>
 
