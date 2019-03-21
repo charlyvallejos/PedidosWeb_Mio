@@ -7,7 +7,7 @@ class Usuario{
     private $Nombre_Vendedor;
     private $Codigo_Vendedor;
     
-    public function verificoAutentificacion(){
+    public function verificoAutentificacion(){        
         if(isset($_SESSION['logueado'])){
             return true;
         }else{

@@ -1,6 +1,5 @@
 <div ng-controller="pedidosController" Id="vistaPedidos">
-<?php
-include 'formPedido.php' ?>
+<?php include 'formPedido.php' ?>
 <!-------------------------------------------------------------------------------------------------------------------->
     <div class="panel panel_pedido" ng-init="consultaPedidos(<?php echo $_SESSION['Codigo_Vendedor']; ?>)">
         <div class="panel-body">

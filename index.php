@@ -1,9 +1,10 @@
 <?php
     require 'config/config.php';
     $usuario = new Usuario();
+    
     if ($usuario->verificoAutentificacion())
     {
-?>
+?> 
 <html ng-app="appSapo">
     <head>
         <meta charset="UTF-8">
@@ -38,4 +39,4 @@
         <script src="https://code.angularjs.org/1.3.0-rc.2/angular-messages.js"></script>
     </body>
 </html>
-<?php } else { require 'vistas/formLogin.php'; } ?>
+    <?php } else { require 'vistas/formLogin.php'; } ?>
