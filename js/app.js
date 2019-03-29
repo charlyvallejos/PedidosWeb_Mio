@@ -17,6 +17,9 @@ var app = angular.module('appSapo',['angularUtils.directives.dirPagination','ngM
         .controller('pedidosController', function($scope,$window,$http){
             $scope.pedidos = [];
             $scope.numXpag = 5;
+            $scope.pedidoTemporal = {};
+            $scope.productoTemporal = {};
+            $scope.pedidoTemporal.Productos = [];
             $scope.consultaPedidos = function(codVendedor){
                 $http.get(apiURL + '?a=get&t=ped&codVend=' + codVendedor)
                         .then(function(resp){
